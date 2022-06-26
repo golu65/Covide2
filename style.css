@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("back.jfif");
+}
+
+nav{
+    background-color: rgb(37, 33, 33);
+    display: flex;
+    padding: 0px 22px;
+}
+
+.item{
+    /*background-color: rgb(141, 141, 164);*/
+    list-style: none;
+    padding: 7px 15px;
+}
+.item a{
+    color: white;
+    text-decoration: none;
+    padding:  5px 0;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.item a:hover{
+    background: white;
+    color: black;
+    border-radius: 6px;
+}
+
+.container{
+    background-color: white;
+    border-radius: 12px;
+    max-width: 60%;
+    margin: 12px auto;
+    padding: 20px;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+}
+
+h1,h2,h3{
+    padding: 20px 0;
+}
+
+h3{
+    padding: 20px 0;
+}
+
+p{
+
+}
